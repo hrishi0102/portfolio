@@ -12,6 +12,7 @@ import insightboard from "./assets/insightboard.png";
 import spotify from "./assets/spotify.png";
 import equilibri from "./assets/equilibAI.png";
 import ai from "./assets/ai.png";
+import pitchmembaby from "./assets/pitchmebaby.png";
 
 export default function App() {
   const words = ["Full Stack", "Blockchain", "GenAI"];
@@ -45,7 +46,7 @@ export default function App() {
     {
       title: "PitchMeBaby",
       period: "April 2025",
-      src: insightboard,
+      src: pitchmembaby,
       description:
         "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$",
       stack: ["React", "Node", "PaymanAI", "VapiAI"],
