@@ -43,6 +43,19 @@ export default function App() {
       ],
     },
     {
+      title: "PitchMeBaby",
+      period: "April 2025",
+      src: insightboard,
+      description:
+        "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$",
+      stack: ["React", "Node", "PaymanAI", "VapiAI"],
+      buttons: [
+        { label: "Website", url: "https://pitchmebaby.vercel.app/" },
+        { label: "Source", url: "https://github.com/hrishi0102/pitchmebaby" },
+        { label: "Demo", url: "https://github.com/hrishi0102/pitchmebaby" },
+      ],
+    },
+    {
       title: "EduFi",
       period: "January 2025",
       src: edufi,
