@@ -132,6 +132,7 @@ export default function App() {
     "3rd Place @ Nomura Kakhushin 7.0 – Offered PPO",
     "Winner @ Payman AI Dev Challenge",
     "Winner @ ETHIndia23, ETHIndia24, ETHMumbai24, BuildOn24, ZKOnline25, Syrus24",
+    "300+ Users and 2000+ page visits within 48 hours of launch of PitchMeBaby",
     "250+ Attendees @ AR Workshop Conducted",
     "Interviewed on TV9 Marathi for Arduino Digital Rakhi",
   ];
