@@ -53,7 +53,7 @@ export default function App() {
       buttons: [
         { label: "Website", url: "https://pitchmebaby.vercel.app/" },
         { label: "Source", url: "https://github.com/hrishi0102/pitchmebaby" },
-        { label: "Demo", url: "https://github.com/hrishi0102/pitchmebaby" },
+        { label: "Demo", url: "#" },
       ],
     },
     {
