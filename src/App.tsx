@@ -18,6 +18,22 @@ export default function App() {
   const words = ["Full Stack", "Blockchain", "GenAI"];
   const cards = [
     {
+      title: "PitchMeBaby",
+      period: "April 2025",
+      src: pitchmembaby,
+      description:
+        "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$",
+      stack: ["React", "Node", "PaymanAI", "VapiAI"],
+      buttons: [
+        { label: "Website", url: "https://pitchmebaby.xyz" },
+        { label: "Source", url: "https://github.com/hrishi0102/pitchmebaby" },
+        {
+          label: "Demo",
+          url: "https://www.producthunt.com/posts/pitchmebaby?utm_source=other&utm_medium=social",
+        },
+      ],
+    },
+    {
       title: "PatchPay",
       period: "March 2025",
       src: patchpay,
@@ -41,19 +57,6 @@ export default function App() {
         { label: "Website", url: "https://ai-insight-board.vercel.app" },
         { label: "Source", url: "https://github.com/hrishi0102/InsightBoard" },
         { label: "Demo", url: "" },
-      ],
-    },
-    {
-      title: "PitchMeBaby",
-      period: "April 2025",
-      src: pitchmembaby,
-      description:
-        "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$",
-      stack: ["React", "Node", "PaymanAI", "VapiAI"],
-      buttons: [
-        { label: "Website", url: "https://pitchmebaby.vercel.app/" },
-        { label: "Source", url: "https://github.com/hrishi0102/pitchmebaby" },
-        { label: "Demo", url: "#" },
       ],
     },
     {
@@ -129,12 +132,13 @@ export default function App() {
   ];
 
   const achievements = [
-    "3rd Place @ Nomura Kakhushin 7.0 – Offered PPO",
+    "3rd Place @ Nomura Kakhushin 7.0 - offered PPO",
     "Winner @ Payman AI Dev Challenge",
     "Winner @ ETHIndia23, ETHIndia24, ETHMumbai24, BuildOn24, ZKOnline25, Syrus24",
     "300+ Users and 2000+ page visits within 48 hours of launch of PitchMeBaby",
-    "250+ Attendees @ AR Workshop Conducted",
+    "250+ Attendees @ AR Workshop conducted by me",
     "Interviewed on TV9 Marathi for Arduino Digital Rakhi",
+    "Co founder of Kkrafts - A mask business with $1000 MRR during 2020 Pandemic",
   ];
 
   const dockLinks = [
@@ -181,6 +185,15 @@ export default function App() {
           className="inline-block mt-6 text-sm underline underline-offset-4 text-black"
         >
           proof of work
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a
+          href="https://github.com/hrishi0102"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-6 text-sm underline underline-offset-4 text-black"
+        >
+          github
         </a>
       </section>
 
