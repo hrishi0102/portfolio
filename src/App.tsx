@@ -154,7 +154,7 @@ export default function App() {
       icon: (
         <IconBrandX className="h-full w-full text-black dark:text-neutral-300" />
       ),
-      href: "https://x.com/Hrishikeshhhh__",
+      href: "https://x.com/hrishikeshhh_",
     },
     {
       title: "GitHub",
