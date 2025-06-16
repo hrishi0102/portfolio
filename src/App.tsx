@@ -13,16 +13,34 @@ import spotify from "./assets/spotify.png";
 import equilibri from "./assets/equilibAI.png";
 import ai from "./assets/ai.png";
 import pitchmembaby from "./assets/pitchmebaby.png";
+import yapphub from "./assets/yapphub.png";
+import paycoffee from "./assets/paycoffee.png";
 
 export default function App() {
   const words = ["Full Stack", "Blockchain", "GenAI"];
   const cards = [
     {
+      title: "YappHub",
+      period: "May 2025",
+      src: yapphub,
+      description:
+        "Tranform any github repo into a comprehensive documentation and chat with your repo. 300+ users",
+      stack: ["React", "Python", "FastAPI", "Github API"],
+      buttons: [
+        { label: "Website", url: "https://www.yapphub.com/" },
+        { label: "Source", url: "https://github.com/hrishi0102/yapphub" },
+        {
+          label: "Demo",
+          url: "https://x.com/hrishikeshhh_/status/1933508867276877829",
+        },
+      ],
+    },
+    {
       title: "PitchMeBaby",
       period: "April 2025",
       src: pitchmembaby,
       description:
-        "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$",
+        "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$. 500+ users",
       stack: ["React", "Node", "PaymanAI", "VapiAI"],
       buttons: [
         { label: "Website", url: "https://pitchmebaby.xyz" },
@@ -30,6 +48,22 @@ export default function App() {
         {
           label: "Demo",
           url: "https://www.producthunt.com/posts/pitchmebaby?utm_source=other&utm_medium=social",
+        },
+      ],
+    },
+    {
+      title: "PayCoffee",
+      period: "April 2025",
+      src: paycoffee,
+      description:
+        "A payment platform that enables businesses to accept donations and tips through embeddable widgets",
+      stack: ["React", "Node", "PaymanAI", "Supabase"],
+      buttons: [
+        { label: "Website", url: "https://paycoffee.vercel.app/" },
+        { label: "Source", url: "https://github.com/hrishi0102/paycoffee" },
+        {
+          label: "Demo",
+          url: "https://youtu.be/BqSWuEpkxBU",
         },
       ],
     },
@@ -136,7 +170,7 @@ export default function App() {
     "Winner @ Payman AI Dev Challenge",
     "Winner @ ETHIndia23, ETHIndia24, ETHMumbai24, BuildOn24, ZKOnline25, Syrus24",
     "300+ Users and 2000+ page visits within 48 hours of launch of PitchMeBaby",
-    "250+ Attendees @ AR Workshop conducted by me",
+    "250+ Attendees @ Augmented Reality Workshop conducted by me",
     "Interviewed on TV9 Marathi for Arduino Digital Rakhi",
     "Co founder of Kkrafts - A mask business with $1000 MRR during 2020 Pandemic",
   ];
