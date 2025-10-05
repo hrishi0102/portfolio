@@ -13,6 +13,7 @@ import spotify from "./assets/spotify.png";
 import equilibri from "./assets/equilibAI.png";
 import ai from "./assets/ai.png";
 import pitchmembaby from "./assets/pitchmebaby.png";
+import melon from "./assets/melon.png";
 import yapphub from "./assets/yapphub.png";
 import paycoffee from "./assets/paycoffee.png";
 import senseai from "./assets/SenseAI.png";
@@ -44,11 +45,30 @@ export default function App() {
         "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$. 500+ users",
       stack: ["React", "Node", "PaymanAI", "VapiAI"],
       buttons: [
-        { label: "Website", url: "https://pitchmebaby.xyz" },
+        { label: "Website", url: "https://www.pitchmebaby.xyz/" },
         { label: "Source", url: "https://github.com/hrishi0102/pitchmebaby" },
         {
           label: "Demo",
-          url: "https://www.producthunt.com/posts/pitchmebaby?utm_source=other&utm_medium=social",
+          url: "https://www.producthunt.com/products/pitchmebaby?utm_source=other&utm_medium=social&launch=pitchmebaby",
+        },
+      ],
+    },
+    {
+      title: "Melon",
+      period: "October 2025",
+      src: melon,
+      description:
+        "Melon is a firmware which embeds proof in image to verify authenticity and detect deepfakes.",
+      stack: ["solidity", "raspberrypi-5", "typescript", "Next.js"],
+      buttons: [
+        {
+          label: "Website",
+          url: "https://melonstudio.vercel.app/",
+        },
+        { label: "Source", url: "https://github.com/hrishi0102/Melon" },
+        {
+          label: "Demo",
+          url: "https://youtu.be/6m-zLcJpa0o",
         },
       ],
     },
@@ -68,25 +88,6 @@ export default function App() {
         {
           label: "Demo",
           url: "https://youtu.be/VlSMYtmNQOc?si=IoSkoGiyuETjHSas",
-        },
-      ],
-    },
-    {
-      title: "EquilibrAI",
-      period: "November 2024",
-      src: equilibri,
-      description:
-        "A DeFi portfolio platform with automated portfolio rebalancing and AI-powered insights in a single click.",
-      stack: ["solidity", "ethers.js", "typescript", "Next.js", "AgentKit"],
-      buttons: [
-        {
-          label: "Website",
-          url: "https://devfolio.co/projects/equilibrai-0e7c",
-        },
-        { label: "Source", url: "https://github.com/hrishi0102/AI_Agents" },
-        {
-          label: "Demo",
-          url: "https://www.youtube.com/watch?v=nixKqIJylK4",
         },
       ],
     },
@@ -180,6 +181,25 @@ export default function App() {
         {
           label: "Demo",
           url: "#",
+        },
+      ],
+    },
+    {
+      title: "EquilibrAI",
+      period: "November 2024",
+      src: equilibri,
+      description:
+        "A DeFi portfolio platform with automated portfolio rebalancing and AI-powered insights in a single click.",
+      stack: ["solidity", "ethers.js", "typescript", "Next.js", "AgentKit"],
+      buttons: [
+        {
+          label: "Website",
+          url: "https://devfolio.co/projects/equilibrai-0e7c",
+        },
+        { label: "Source", url: "https://github.com/hrishi0102/AI_Agents" },
+        {
+          label: "Demo",
+          url: "https://www.youtube.com/watch?v=nixKqIJylK4",
         },
       ],
     },
@@ -280,7 +300,13 @@ export default function App() {
         <h2 className="text-2xl font-semibold mb-4">Achievements</h2>
         <ul className="list-disc list-inside text-sm space-y-1 text-gray-600">
           {achievements.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index}>
+              {item
+                .split(/(Winner)/g)
+                .map((part, i) =>
+                  part === "Winner" ? <strong key={i}>Winner</strong> : part
+                )}
+            </li>
           ))}
         </ul>
       </section>
