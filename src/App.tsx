@@ -15,6 +15,7 @@ import ai from "./assets/ai.png";
 import pitchmembaby from "./assets/pitchmebaby.png";
 import yapphub from "./assets/yapphub.png";
 import paycoffee from "./assets/paycoffee.png";
+import senseai from "./assets/SenseAI.png";
 
 export default function App() {
   const words = ["Full Stack", "Blockchain", "GenAI"];
@@ -48,6 +49,44 @@ export default function App() {
         {
           label: "Demo",
           url: "https://www.producthunt.com/posts/pitchmebaby?utm_source=other&utm_medium=social",
+        },
+      ],
+    },
+    {
+      title: "SenseAI",
+      period: "September 2025",
+      src: senseai,
+      description:
+        "SenseAI is a Startup Evaluator that instantly delivers detailed insights on the company's performance using AI agents.",
+      stack: ["typescript", "python", "GoogleADK", "Firebase"],
+      buttons: [
+        {
+          label: "Website",
+          url: "https://sense--ai.vercel.app/",
+        },
+        { label: "Source", url: "https://github.com/hrishi0102/SenseAI" },
+        {
+          label: "Demo",
+          url: "https://youtu.be/VlSMYtmNQOc?si=IoSkoGiyuETjHSas",
+        },
+      ],
+    },
+    {
+      title: "EquilibrAI",
+      period: "November 2024",
+      src: equilibri,
+      description:
+        "A DeFi portfolio platform with automated portfolio rebalancing and AI-powered insights in a single click.",
+      stack: ["solidity", "ethers.js", "typescript", "Next.js", "AgentKit"],
+      buttons: [
+        {
+          label: "Website",
+          url: "https://devfolio.co/projects/equilibrai-0e7c",
+        },
+        { label: "Source", url: "https://github.com/hrishi0102/AI_Agents" },
+        {
+          label: "Demo",
+          url: "https://www.youtube.com/watch?v=nixKqIJylK4",
         },
       ],
     },
@@ -144,31 +183,13 @@ export default function App() {
         },
       ],
     },
-    {
-      title: "EquilibrAI",
-      period: "November 2024",
-      src: equilibri,
-      description:
-        "A powerful DeFi portfolio management platform with automated portfolio rebalancing and AI-powered insights in a single click.",
-      stack: ["typescript", "python"],
-      buttons: [
-        {
-          label: "Website",
-          url: "https://devfolio.co/projects/equilibrai-0e7c",
-        },
-        { label: "Source", url: "https://github.com/hrishi0102/AI_Agents" },
-        {
-          label: "Demo",
-          url: "https://www.youtube.com/watch?v=nixKqIJylK4",
-        },
-      ],
-    },
   ];
 
   const achievements = [
     "3rd Place @ Nomura Kakhushin 7.0 - offered PPO",
     "Winner @ Payman AI Dev Challenge",
-    "Winner @ ETHIndia23, ETHIndia24, ETHMumbai24, BuildOn24, ZKOnline25, Syrus24",
+    "Winner @ ETHGlobal25, ETHIndia23, ETHIndia24, ETHMumbai24",
+    "Winner @ BuildOn24, ZKOnline25, Syrus24",
     "300+ Users and 2000+ page visits within 48 hours of launch of PitchMeBaby",
     "250+ Attendees @ Augmented Reality Workshop conducted by me",
     "Interviewed on TV9 Marathi for Arduino Digital Rakhi",
@@ -204,7 +225,7 @@ export default function App() {
       <section className="mb-10 text-muted-foreground">
         <h1 className="text-5xl font-bold mt-8 text-black">Hrishikesh Patil</h1>
         <p className="text-lg mt-2">
-          SWE @ Nomura | <FlipWords words={words} /> Engineer | 8x Hackathon
+          SWE @ Nomura | <FlipWords words={words} /> Engineer | 9x Hackathon
           Winner
         </p>
         <p className="text-base mt-12">
