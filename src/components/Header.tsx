@@ -7,7 +7,7 @@ export default function Header() {
     <section className="mb-10 text-muted-foreground">
       <h1 className="text-5xl font-bold mt-8 text-black">Hrishikesh Patil</h1>
       <p className="text-lg mt-2">
-        SWE @ Nomura | <FlipWords words={words} /> Engineer | 9x Hackathon Winner
+        Dev Rel @ PaymanAI | <FlipWords words={words} /> Engineer | 9x Hackathon Winner
       </p>
       <p className="text-base mt-12">
         experimenting, building and shipping products at the intersection of

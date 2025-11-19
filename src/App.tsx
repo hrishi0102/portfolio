@@ -43,7 +43,7 @@ export default function App() {
       <Achievements />
       <Projects />
 
-      <div className="fixed bottom-2 left-1/2 -translate-x-1/2 z-50 w-max border border-gray-400 rounded-full bg-white shadow-md px-2 py-2">
+      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 w-max border border-neutral-200 rounded-full bg-white/80 backdrop-blur-xl shadow-[0_0_30px_rgba(0,0,0,0.15)] px-4 py-3">
         <FloatingDock items={dockLinks} />
       </div>
 

@@ -1,21 +1,21 @@
 export default function Experience() {
   const experiences = [
     {
-      role: "Analyst",
-      company: "Nomura",
-      period: "Jul 2024 – Present",
-      description: [
-        "Maintained and upgraded A2P: secure access to production services using Java, Spring, and Spring Boot.",
-        "Developed an RAG-based AI system projected to reduce support and operational load by 60%, leveraging Langchain and vector databases.",
-      ],
-    },
-    {
       role: "Developer Relations Engineer",
       company: "PaymanAI",
-      period: "Aug 2022",
+      period: "Oct 2025 - Present",
       description: [
         "Built end-to-end PoCs and integration use cases showcasing Payman’s AI Agentic capabilities",
         "Authored SDK guides, technical docs, and demo repos to accelerate onboarding and enhance the developer experience",
+      ],
+    },
+    {
+      role: "Analyst",
+      company: "Nomura",
+      period: "Jul 2024 – Oct 2025",
+      description: [
+        "Maintained and upgraded A2P: secure access to production services using Java, Spring, and Spring Boot.",
+        "Developed an RAG-based AI system projected to reduce support and operational load by 60%, leveraging Langchain and vector databases.",
       ],
     },
   ];
