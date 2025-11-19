@@ -1,0 +1,173 @@
+[
+  {
+    "title": "YappHub",
+    "period": "May 2025",
+    "src": "/assets/yapphub.png",
+    "description": "Tranform any github repo into a comprehensive documentation and chat with your repo. 300+ users",
+    "stack": ["React", "Python", "FastAPI", "Github API"],
+    "buttons": [
+      { "label": "Website", "url": "https://www.yapphub.com/" },
+      { "label": "Source", "url": "https://github.com/hrishi0102/yapphub" },
+      {
+        "label": "Demo",
+        "url": "https://x.com/hrishikeshhh_/status/1933508867276877829"
+      }
+    ]
+  },
+  {
+    "title": "PitchMeBaby",
+    "period": "April 2025",
+    "src": "/assets/pitchmebaby.png",
+    "description": "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$. 500+ users",
+    "stack": ["React", "Node", "PaymanAI", "VapiAI"],
+    "buttons": [
+      { "label": "Website", "url": "https://www.pitchmebaby.xyz/" },
+      { "label": "Source", "url": "https://github.com/hrishi0102/pitchmebaby" },
+      {
+        "label": "Demo",
+        "url": "https://www.producthunt.com/products/pitchmebaby?utm_source=other&utm_medium=social&launch=pitchmebaby"
+      }
+    ]
+  },
+  {
+    "title": "Melon",
+    "period": "October 2025",
+    "src": "/assets/melon.png",
+    "description": "Melon is a firmware which embeds proof in image to verify authenticity and detect deepfakes.",
+    "stack": ["solidity", "raspberrypi-5", "typescript", "Next.js"],
+    "buttons": [
+      {
+        "label": "Website",
+        "url": "https://melonstudio.vercel.app/"
+      },
+      { "label": "Source", "url": "https://github.com/hrishi0102/Melon" },
+      {
+        "label": "Demo",
+        "url": "https://youtu.be/6m-zLcJpa0o"
+      }
+    ]
+  },
+  {
+    "title": "SenseAI",
+    "period": "September 2025",
+    "src": "/assets/SenseAI.png",
+    "description": "SenseAI is a Startup Evaluator that instantly delivers detailed insights on the company's performance using AI agents.",
+    "stack": ["typescript", "python", "GoogleADK", "Firebase"],
+    "buttons": [
+      {
+        "label": "Website",
+        "url": "https://sense--ai.vercel.app/"
+      },
+      { "label": "Source", "url": "https://github.com/hrishi0102/SenseAI" },
+      {
+        "label": "Demo",
+        "url": "https://youtu.be/VlSMYtmNQOc?si=IoSkoGiyuETjHSas"
+      }
+    ]
+  },
+  {
+    "title": "PayCoffee",
+    "period": "April 2025",
+    "src": "/assets/paycoffee.png",
+    "description": "A payment platform that enables businesses to accept donations and tips through embeddable widgets",
+    "stack": ["React", "Node", "PaymanAI", "Supabase"],
+    "buttons": [
+      { "label": "Website", "url": "https://paycoffee.vercel.app/" },
+      { "label": "Source", "url": "https://github.com/hrishi0102/paycoffee" },
+      {
+        "label": "Demo",
+        "url": "https://youtu.be/BqSWuEpkxBU"
+      }
+    ]
+  },
+  {
+    "title": "PatchPay",
+    "period": "March 2025",
+    "src": "/assets/patchpay.png",
+    "description": "Bug bounty platform which streamlines vulnerability reporting, submissions and instant payments with PaymanAI.",
+    "stack": ["React", "Express", "PaymanAI", "MongoDB"],
+    "buttons": [
+      { "label": "Website", "url": "https://patchpay.co" },
+      { "label": "Source", "url": "https://github.com/hrishi0102/patchpay_v0" },
+      { "label": "Demo", "url": "https://www.youtube.com/watch?v=gtY00bJVLDM" }
+    ]
+  },
+  {
+    "title": "InsightBoard",
+    "period": "February 2025",
+    "src": "/assets/insightboard.png",
+    "description": "Digital drawing canvas with AI-powered analysis that helps visualize, interpret, and solve complex ideas and equations",
+    "stack": ["React", "Fabric.js", "Express", "GeminiAI"],
+    "buttons": [
+      { "label": "Website", "url": "https://ai-insight-board.vercel.app" },
+      { "label": "Source", "url": "https://github.com/hrishi0102/InsightBoard" },
+      { "label": "Demo", "url": "" }
+    ]
+  },
+  {
+    "title": "EduFi",
+    "period": "January 2025",
+    "src": "/assets/edufi.jpeg",
+    "description": "Web3 education financing platform that combines Zkproofs, micro-financing and AI-driven course matching",
+    "stack": ["Solidity", "React", "AgentKit", "ZKVerify", "Circom"],
+    "buttons": [
+      { "label": "Website", "url": "https://devfolio.co/projects/edufi-8ff4" },
+      { "label": "Source", "url": "https://github.com/hrishi0102/EduFi" },
+      { "label": "Demo", "url": "https://www.youtube.com/watch?v=ESfAMZJaa-M" }
+    ]
+  },
+  {
+    "title": "Spotify MCP",
+    "period": "April 2025",
+    "src": "/assets/spotify.png",
+    "description": "A Model Context Protocol (MCP) server that lets you interact with Spotify through Claude to search songs, create playlists, get recommendations",
+    "stack": ["typescript", "node"],
+    "buttons": [
+      {
+        "label": "Website",
+        "url": "https://x.com/Hrishikeshhhh__/status/1909278208626995695"
+      },
+      { "label": "Source", "url": "https://github.com/hrishi0102/spotifyyy-mcp" },
+      {
+        "label": "Demo",
+        "url": "https://x.com/Hrishikeshhhh__/status/1909278208626995695"
+      }
+    ]
+  },
+  {
+    "title": "AI Agents",
+    "period": "Present",
+    "src": "/assets/ai.png",
+    "description": "Learning and experimenting with various AI agents and their applications.Includes GoogleADK, Langraph, VapiAI, and more.",
+    "stack": ["typescript", "python"],
+    "buttons": [
+      {
+        "label": "Website",
+        "url": "https://github.com/hrishi0102/AI_Agents"
+      },
+      { "label": "Source", "url": "https://github.com/hrishi0102/AI_Agents" },
+      {
+        "label": "Demo",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "title": "EquilibrAI",
+    "period": "November 2024",
+    "src": "/assets/equilibAI.png",
+    "description": "A DeFi portfolio platform with automated portfolio rebalancing and AI-powered insights in a single click.",
+    "stack": ["solidity", "ethers.js", "typescript", "Next.js", "AgentKit"],
+    "buttons": [
+      {
+        "label": "Website",
+        "url": "https://devfolio.co/projects/equilibrai-0e7c"
+      },
+      { "label": "Source", "url": "https://github.com/hrishi0102/AI_Agents" },
+      {
+        "label": "Demo",
+        "url": "https://www.youtube.com/watch?v=nixKqIJylK4"
+      }
+    ]
+  }
+]
