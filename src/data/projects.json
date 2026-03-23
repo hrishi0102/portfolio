@@ -87,7 +87,7 @@
     "description": "Bug bounty platform which streamlines vulnerability reporting, submissions and instant payments with PaymanAI.",
     "stack": ["React", "Express", "PaymanAI", "MongoDB"],
     "buttons": [
-      { "label": "Website", "url": "https://patchpay.co" },
+      { "label": "Website", "url": "https://patchpay.vercel.app/" },
       { "label": "Source", "url": "https://github.com/hrishi0102/patchpay_v0" },
       { "label": "Demo", "url": "https://www.youtube.com/watch?v=gtY00bJVLDM" }
     ]
