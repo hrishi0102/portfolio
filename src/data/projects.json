@@ -6,7 +6,7 @@
     "description": "Tranform any github repo into a comprehensive documentation and chat with your repo. 300+ users",
     "stack": ["React", "Python", "FastAPI", "Github API"],
     "buttons": [
-      { "label": "Website", "url": "https://www.yapphub.com/" },
+      { "label": "Website", "url": "https://yapphub.vercel.app/" },
       { "label": "Source", "url": "https://github.com/hrishi0102/yapphub" },
       {
         "label": "Demo",
@@ -21,7 +21,7 @@
     "description": "Interactive voice platform that lets users pitch bizarre objects to AI agent in 60 seconds, and if convinced win $$$. 500+ users",
     "stack": ["React", "Node", "PaymanAI", "VapiAI"],
     "buttons": [
-      { "label": "Website", "url": "https://www.pitchmebaby.xyz/" },
+      { "label": "Website", "url": "https://pitchmebaby.vercel.app/" },
       { "label": "Source", "url": "https://github.com/hrishi0102/pitchmebaby" },
       {
         "label": "Demo",
